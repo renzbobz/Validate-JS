@@ -1,1 +1,1 @@
-# Validate.js
+# Validate JS
