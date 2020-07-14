@@ -77,7 +77,7 @@ Take note:
 if EnableStyling is set to true the input must have a div parent.
 
 
------
+---
 > Coded on mobile phone
 
       
