@@ -10,7 +10,7 @@ vjs.errorColor = "red";
 // Change success color
 vjs.successColor = "lime";
 
-dovument.querySelector("#form").onsubmit = () {
+document.querySelector("#form").onsubmit = () => {
   return validate();
 }
 
