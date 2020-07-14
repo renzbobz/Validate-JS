@@ -70,9 +70,9 @@ vjs.validate(
   }
 );
 ```
-To view features list:
+To view feature list:
 ```javascript
-console.log(vjs.featuresList);
+console.log(vjs.featureList);
 ```
 
 Take note:
