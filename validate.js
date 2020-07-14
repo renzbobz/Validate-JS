@@ -3,7 +3,7 @@ class ValidateJS {
   EnableStyling = false;
   errorColor = "#f5908e";
   successColor = "#29e479";
-  featureList = {
+  featuresList = {
     min: "Minimum value length",
     max: "Maximum value length",
     email: "Only email format",
@@ -166,7 +166,7 @@ class ValidateJS {
     
     objs.forEach((v,i) => {
       Object.keys(v).forEach(type => {
-        if (this.featureList[type]) this.validateEl(v, v.el, type) ? validCounter++ : invalidCounter++;
+        if (this.featuresList[type]) this.validateEl(v, v.el, type) ? validCounter++ : invalidCounter++;
       });
     });
     
